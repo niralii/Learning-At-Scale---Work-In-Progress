@@ -1,0 +1,24 @@
+Project Ed Study Groups
+CS 6460: Ed Technology
+Nirali Thakkar
+nirali@gatech.edu
+
+
+Code can be accessed at - 
+
+https://drive.google.com/drive/folders/1KKcdrZYrRBuWQfA9Y8p2vbgyiZXXBMJ_?usp=sharing
+
+1. Study_groups_3_copy is the ed study groups website. All users are authenticated to Google using Firebase from where their profile pictures and names get imported. The idea is that GTech username also gets imported from Oscar when authenticated to university to not have continuous supervision by admins in the study groups. In the study groups, one can create new channels, though ideally only the TA or professor should be able to modify that. 
+Command to run in Visual Code Insiders - 
+- npm run start
+- runs on localhost:3000
+The deployed website is - https://ed-study-groups.web.app/
+
+2. Video folder is the video chat that opens when one clicks the call icon in the study group. Howver, the page is not loading when selecting from the call.
+It can be viewed as an individual module - 
+- Command to run video - nodemon server.js
+- localhost:3030
+- The website is deployed but not working - (https://ed-study-groups-video.web.app/)
+
+3. Chatbot has been integrated in the study group using OpenAPI Key and chatgptbuilder. It is common to all users (it is not authenticated to each user currently).
+- Link - https://app.chatgptbuilder.io/webchat/?p=1952388&ref=1682998930209
